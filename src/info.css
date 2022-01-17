@@ -1,10 +1,10 @@
 .info{
   background-color: white;
-  color: red;
+  color: darkslateblue;
   border: 1px solid #DDDDDD;
   padding: 0 1rem;
   border-radius: 8px;
-  box-shadow: 0 2px 4px 0 rgba(0, 255, 98, 0.808);
+  /* box-shadow: 0 2px 4px 0 rgba(0, 255, 98, 0.808); */
   margin: 0 0 2rem ;
 }
 h4{
