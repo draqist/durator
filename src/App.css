@@ -117,7 +117,8 @@ span{
   }
   .appInfo{
     width: fit-content;
-    margin: 0 .75rem 3.25rem;
+    /* margin: 0 .75rem 3.25rem; */
+    padding-bottom: 1rem;
   }
   span{
     font-size: 1.25rem;
