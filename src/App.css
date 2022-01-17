@@ -7,7 +7,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 .search{
   width: 40rem;
@@ -25,7 +25,7 @@
   -webkit-backdrop-filter: blur( 2px );
   border-radius: 10px;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
-  margin: auto;
+  /* margin: auto; */
   place-content: center;
 }
 input{
@@ -61,6 +61,7 @@ button{
 }
 .h1{
   margin: 0;
+  padding-top:1rem ;
   font-size: 3.5rem;
   font-family: "Montserrat";
   font-weight: 600;
