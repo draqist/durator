@@ -88,9 +88,9 @@ span{
         65%  { transform: scale(1,1) translateY(0); opacity: 0.9}
         100% { transform: scale(1,1) translateY(0); opacity: 1}
     }
-    @media screen and (max-width: 430px) {
+    @media screen and (max-width: 409px) {
       .search{
-        width: 22rem
+        width: 20rem
       }
       input{
         width: 100%;
@@ -99,18 +99,25 @@ span{
         font-size: 2rem;
       }
       .appInfo{
-        /* width: 100%; */
+        width: 100%;
         text-align: center;
       }
       span{
         font-size: .8rem;
       }
     }
-@media screen and (min-width:430px) and (max-width:790px) {
+@media screen and (min-width:410px) and (max-width:790px) {
   .search{
-    width: calc(100% - 5rem)
+    width: calc(100% - 2rem)
+  }
+  .appInfo{
+    width: fit-content;
+    margin: 0 .75rem;
   }
   span{
-    font-size: 1rem;
+    font-size: .75rem;
+  }
+  .h1{
+    font-size: 2rem;
   }
 }
