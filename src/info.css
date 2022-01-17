@@ -8,7 +8,17 @@
   font-weight: 400;
   margin: 0 0 2rem ;
   width: 35rem;
+  animation: fade 2s ease-in;
 }
 h4{
   margin: .85rem 0;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
 }
