@@ -83,3 +83,8 @@ span{
         65%  { transform: scale(1,1) translateY(0);}
         100% { transform: scale(1,1) translateY(0);}
     }
+    @media screen and (max-width: 400px) {
+      .search{
+        width: 20rem
+      }
+    }
