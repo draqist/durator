@@ -28,7 +28,7 @@ function App() {
       <div className = 'h1'>D.u.r.a.t.o.r</div>
       <div className = 'search' >
         <input type='search' placeholder='Paste your URL here' value = {value} onChange = {(e)=> setValue(e.target.value)} />
-        <button onClick = {() => getInfo(value)} >
+        <button onClick = {() => getInfo(value)}  >
           Generate
         </button>
       </div>

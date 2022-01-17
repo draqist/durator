@@ -22,3 +22,8 @@ h4{
     opacity: 1;
   }
 }
+@media screen and (max-width: 400px) {
+  .info{
+    width: 20rem
+  }
+}
