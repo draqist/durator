@@ -3,7 +3,7 @@ import './info.css'
 
 const Infopage = ({format,bit_rate,duration,size,start_time,nb_streams }) => {
   return (
-    <div className = 'info'>
+    <div className = 'info shadow-24dp'>
       <h4>Format: { format }</h4>
       <h4>Bit Rate: { bit_rate }</h4>
       <h4>Duration in s: { duration }</h4>
