@@ -116,7 +116,7 @@ span{
     }
 @media screen and (min-width:430px) and (max-width:790px) {
   .search{
-    width: calc(100% - 1.5rem)
+    width: calc(100% - 2.5rem)
   }
   .appInfo{
     width: 90%;
