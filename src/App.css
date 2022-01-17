@@ -87,4 +87,10 @@ span{
       .search{
         width: 20rem
       }
+      .h1{
+        font-size: 2rem;
+      }
+      .appInfo{
+        width: 100%
+      }
     }
