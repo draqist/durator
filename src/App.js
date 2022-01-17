@@ -32,6 +32,7 @@ function App() {
           Generate
         </button>
       </div>
+        {/* <input type = 'file' name = 'fileName' className = 'file' /> */}
       {
         check && <Infopage format = {result.format_name} bit_rate = {result.bit_rate} duration = {result.duration} size = {result.size} start_time = {result.start_time} nb_streams = {result.nb_streams}   />
       }
