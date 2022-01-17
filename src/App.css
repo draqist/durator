@@ -117,11 +117,12 @@ span{
     width: calc(100% - 2rem)
   }
   .appInfo{
-    width: fit-content;
-    /* margin: 0 .75rem 3.25rem; */
+    width: 100%;
+    margin: 0 1rem 2rem;
     padding-bottom: 1rem;
   }
   span{
+    margin: 0 auto;
     font-size: 1.25rem;
   }
   .h1{
