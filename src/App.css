@@ -61,6 +61,7 @@ button{
   font-weight: 600;
   letter-spacing: 10px;
   text-transform: uppercase;
+  text-shadow: 0 3px #4361ee, 0 5px #4361ee, 0 7px #4361ee
   animation: bounce 2s ease-in-out
 }
 span{
