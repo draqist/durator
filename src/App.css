@@ -108,7 +108,7 @@ span{
         font-size: .8rem;
       }
       .h1{
-    font-size: 2em;
+    font-size: 2rem;
   }
     }
 @media screen and (min-width:430px) and (max-width:790px) {
@@ -123,6 +123,6 @@ span{
     font-size: 1.25rem;
   }
   .h1{
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
