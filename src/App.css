@@ -78,7 +78,7 @@ span{
 }
 .appInfo{
   margin-bottom: 1rem;
-  width: 45rem;
+  width: 50rem;
   text-align: center;
 }
 
@@ -93,7 +93,7 @@ span{
     }
     @media screen and (max-width: 429px) {
       .search{
-        width: 20rem
+        width: 21rem;
       }
       input{
         width: 100%;
@@ -102,8 +102,10 @@ span{
         font-size: 2rem;
       }
       .appInfo{
-        width: 100%;
+        width: 90%;
         text-align: center;
+        margin: 0 auto;
+        margin-bottom: 1rem;
       }
       span{
         font-size: .8rem;
@@ -114,12 +116,11 @@ span{
     }
 @media screen and (min-width:430px) and (max-width:790px) {
   .search{
-    width: calc(100% - 2rem)
+    width: calc(100% - 1.5rem)
   }
   .appInfo{
-    width: 100%;
+    width: 90%;
     margin: 0 1rem 2rem;
-    padding-bottom: 1rem;
   }
   span{
     margin: 0 auto;
